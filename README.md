@@ -4,7 +4,7 @@
 Вследствие того, что я не умею кодить на C, мне пришлось изменять системные раскладки с помощью [MSKLC](https://optozorax.github.io/p/my-keyboard-layout/#kak-v-klaviaturu-zasunut-svoiu-bukvennuiu-i-prepinakovuiu-raskladku).
 
 ## Установка для Windows
--> [Моя раскладка на Oryx](https://configure.zsa.io/moonlander/layouts/OydL3/latest/0)
+-> [Моя раскладка на Oryx](https://configure.zsa.io/moonlander/layouts/63GNq/latest/0)
 
 Скачиваем `.bin` файл прошивки и [программу для прошивки Wally](https://www.zsa.io/wally/).
 
