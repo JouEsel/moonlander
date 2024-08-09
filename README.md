@@ -1,17 +1,9 @@
 # Моя раскладка Moonlander
 Это моя раскладка для клавиатуры Moonlander. Подробнее о Moonlander можно почитать в [статье от @optozorax](https://optozorax.github.io/p/my-keyboard-layout/).
 
-Вследствие того, что я не умею кодить на C, мне пришлось изменять системные раскладки с помощью [MSKLC](https://optozorax.github.io/p/my-keyboard-layout/#kak-v-klaviaturu-zasunut-svoiu-bukvennuiu-i-prepinakovuiu-raskladku).
+Вследствие того, что я не умею кодить на C, мне пришлось изменять системные раскладки с помощью [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
 
 ## Установка для Windows
--> [Моя раскладка на Oryx](https://configure.zsa.io/moonlander/layouts/L5VzR/latest/0)
+Скачиваем [мою прошивку](https://configure.zsa.io/moonlander/layouts/WazEM/latest/0) и [программу для прошивки](https://www.zsa.io/flash), после чего прошиваем клавиатуру.
 
-Скачиваем `.bin` файл прошивки и [программу для прошивки Wally](https://www.zsa.io/wally/).
-
-Устанавливаем Wally, запускаем и выбираем `.bin` файл прошивки. Переводим клавиатуру в [режим загрузчика](https://docs.qmk.fm/#/newbs_flashing?id=put-your-keyboard-into-dfu-bootloader-mode) нажатием скрепкой по спрятанной кнопке RESET.
-
-Скачиваем и устанавливаем [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134).
-
-Скачиваем из репозитория `.klc` файлы раскладок и загружаем в MSKLC. Во меню Project выбираем пункт Build DLL and Setup Package. Переходим в предложенную папку и устанавливаем раскладки с помощью `setup.exe`.
-
-Переходим в Параметры Windows -> Время и язык -> Язык -> Параметры языка (Русский / Английский) и удаляем старые раскладки, оставляя только раскладки "Русская - Custom". Перезагружаем систему.
+Скачиваем этот репозиторий и устанавливаем модифицированную Русскую раскладку с `setup.exe`. Старую русскую раскладку можно удалить. Перезагружаем систему.
